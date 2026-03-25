@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "660970146500",
+    "project_id": "carzo-dealer",
+    "storage_bucket": "carzo-dealer.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660970146500:android:7bdcdc938366f788a65791",
+        "android_client_info": {
+          "package_name": "com.proxima.carzodealer.carzo_dealer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBC0FMH_bYMHh3_5cxng8yB_qew-HyPPo0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

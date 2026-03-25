@@ -1,0 +1,54 @@
+name: carzo_user_app
+description: Carzo Used Car Marketplace User App
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Firebase
+  firebase_core: ^3.6.0
+  firebase_database: ^11.1.4
+
+  # For calling dealer
+  url_launcher: ^6.3.0
+
+  # For better image loading
+  cached_network_image: ^3.4.1
+
+  # Loading animations
+  flutter_spinkit: ^5.2.1
+
+  # Toast / Snackbar helper
+  fluttertoast: ^8.2.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - Assets/Images/car_icon.png
+    - Assets/Images/fitness_upto.png
+    - Assets/Images/fuel_type.png
+    - Assets/Images/home_icon.png
+    - Assets/Images/odometer.png
+    - Assets/Images/ownership_no.png
+    - Assets/Images/profile.png
+    - Assets/Images/profile_default.png
+    - Assets/Images/registration.png
+    - Assets/Images/transmission.png
+    - Assets/Images/icon.png

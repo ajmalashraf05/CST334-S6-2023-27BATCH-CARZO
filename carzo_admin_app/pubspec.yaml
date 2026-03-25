@@ -1,0 +1,47 @@
+name: carzo_admin_app
+description: Carzo Admin Application
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Firebase Core
+  firebase_core: ^3.6.0
+
+  # Firebase Realtime Database
+  firebase_database: ^11.1.4
+
+  # For Network Image Caching (recommended)
+  cached_network_image: ^3.4.1
+
+  # Loading indicator
+  flutter_spinkit: ^5.2.1
+
+  # Snackbar / Toast
+  fluttertoast: ^8.2.6
+
+  # URL launcher (future use – contact / call / map)
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - Assets/images/verification_image.jpg
+    - Assets/images/carzo_logo.png
